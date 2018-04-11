@@ -11,7 +11,7 @@ export PATH=$(pwd)/../PLATFORM/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-and
 [ -d ${OUT_DIR} ] && rm -rf ${OUT_DIR}
 mkdir ${OUT_DIR}
 
-make ${COMMON_ARGS} star2qlte_usa_single_defconfig
+make ${COMMON_ARGS} star2qlte_chn_hk_defconfig
 make ${COMMON_ARGS}
 
 cp ${OUT_DIR}/arch/arm64/boot/Image $(pwd)/arch/arm64/boot/Image
