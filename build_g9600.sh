@@ -19,7 +19,7 @@ DTS_DIR=$BUILDING_DIR/arch/arm64/boot/dts
 KERNEL_DIR=$ROOT_DIR/kernel-prebuilt
 TEMP_DIR=$OUT_DIR/temp
 
-DEFCONFIG=$1/star2qlte_chn_hk_defconfig
+DEFCONFIG=$1/starqlte_chn_hk_defconfig
 
 FUNC_PRINT()
 {
